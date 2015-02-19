@@ -14,7 +14,7 @@ Before you begin, you must have an Amazon Web Services account set up.  You shou
 
 1. Clone this repository to a directory called "ez-s3-backup" on your host server.  It is **highly recommended** that you place the folder outside of any public directories such as "public_html".  
 
-2. Get [Composer](https://getcomposer.org/download/) if you don't already have it on your server.  If you don't have command line access, you can download composer.phar to your local machine and upload it to ez-s3-backup/composer.phar via FTP.
+2. Get [Composer](https://getcomposer.org/download/) if you don't already have it on your server.  If you don't have command line access, you can download composer.phar to your local machine and upload it to `ez-s3-backup/composer.phar` via FTP.
 
 3. From inside the ez-s3-backup directory, run `php composer.phar install` which will install the program dependencies, namely AWS-SDK-PHP.  You should now have a /vendor folder inside the current directory.
 
