@@ -1,0 +1,5 @@
+vendor/
+/vendor/.composer/
+composer.phar
+.nfs*
+backup.conf

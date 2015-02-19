@@ -1,0 +1,18 @@
+# STANDARD CRONTAB
+# Use this if your host allows direct command-line access to your crontab
+# Edit the crontab file with the command `crontab -e` and paste the 
+# commands below.  Edit the times as desired.
+
+# Backup databases and files every Sunday at 12:00 AM
+0 0 * * * 0 sh {you-path}/ez-s3-backup/backup.sh -d -f
+
+# Upload database backups at 1:00 AM
+0 1 * * * 0 sh {you-path}/ez-s3-backup/backup.sh -D
+
+# Upload file backups at 2:00 AM
+0 2 * * * 0 sh {you-path}/ez-s3-backup/backup.sh -F
+
+# Cleanup local backup files at 3:00 AM
+0 3 * * * 0 sh {you-path}/ez-s3-backup/backup.sh -c
+
+

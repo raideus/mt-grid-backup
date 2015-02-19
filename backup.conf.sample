@@ -1,0 +1,25 @@
+# 
+# backup.conf
+# EZ S3 Backup Configuration File
+#
+
+# The username for your MySQL databases (e.g. "db123456")
+DB_USER="your-db-user"  
+
+# Password for your database user
+DB_PASSWORD="your-password"
+
+# MySQL host address (e.g. "internal-db.s123456.gridserver.com")
+DB_HOST="your-db-host"
+
+# Amazon S3 Access Credentials
+AWS_ACCESS_KEY_ID="your-access-key"
+AWS_SECRET_KEY="your-secret-key"
+AWS_S3_BUCKET="your-bucket-name"
+
+# Absolute path to the directory containing your domains
+# (e.g.  "/home/123456/users/.home/domains")
+HOMEDIR="your-home-dir"
+
+# Format of timestamps used on backup archives
+DATEFORMAT="%Y-%m-%d_%H:%M:%S" # No need to edit this
