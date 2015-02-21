@@ -2,7 +2,7 @@
 
 #
 # backup.sh
-# EZ S3 Upload
+# MT Grid Backup
 # by Sean Butze (sbutze@gmail.com)
 # 8/24/14
 #
