@@ -1,12 +1,7 @@
-# EZ S3 Backup
-**A simple, automated site backup utility for shared hosting**
+# MT Grid Backup
+**A simple, automated site backup utility for Media Temple Grid hosting**
 
-Want to keep your sites and data backed up, but don't want to shell out sizeable amounts of cash every month for expensive backup services?  EZ S3 Backups an affordable option for developers and webmasters that is compatible with popular shared hosting platforms.
-
-This solution is optimized for Media Temple Grid Hosting, but can easily be modified to work with other vendors.  All that's required is FTP access and the ability to set up cron
-jobs (either through the command line or via a control panel).
-
-
+Want to keep your sites and data backed up, but don't want to shell out sizeable amounts of cash every month for expensive backup services?  MT Grid Backup is an affordable option for developers working with Media Temple's Grid Hosting service.
 
 ## Installation
 
@@ -22,7 +17,7 @@ Before you begin, you must have an Amazon Web Services account set up.  You shou
 
 5. Edit backup.conf, filling in the necessary access credentials
 
-6. Set up your cron jobs.  If you're using Media Temple Grid, you'll need to log in to your control panel, and navigate to 'Cron Jobs' located under 'File Management'.  See cron.sample for the various jobs you'll want to create (4 in all). Alternatively, if you have command-line access to the crontab you can use the example jobs available in cron.sample as a starting point.
+6. Set up your cron jobs.  To do this using Media Temple Grid, simply log in to your control panel, and navigate to 'Cron Jobs' located under 'File Management'.  See cron.sample for the various jobs you'll want to create (4 in all). Alternatively, if you have command-line access to the crontab you can use the example jobs available in cron.sample as a starting point.
 
 
 
