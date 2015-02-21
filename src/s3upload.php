@@ -1,7 +1,7 @@
 <?php
 /**
  * s3upload.php
- * EZ S3 Upload
+ * MT Grid Backup
  *
  * Uses the official AWS PHP SDK to upload a single file to
  * an Amazon S3 bucket.
