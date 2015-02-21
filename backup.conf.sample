@@ -1,6 +1,6 @@
 # 
 # backup.conf
-# EZ S3 Backup Configuration File
+# MT Grid Backup - Configuration File
 #
 
 # The username for your MySQL databases (e.g. "db123456")
