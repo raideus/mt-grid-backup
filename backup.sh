@@ -6,7 +6,7 @@
 # by Sean Butze (sbutze@gmail.com)
 # 8/24/14
 #
-# Main backup script for EZ-Backup package.
+# Main backup script for MT Grid Backup.
 # usage:  sh backup.sh [-d | -D | -f | -F | -c ]
 #
 # -d : Backup databases
